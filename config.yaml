@@ -60,6 +60,7 @@ sites:
     contains clash/v2ray txt/yaml subscription links
   link_pattern: https://node\.nodev2ray\.com/uploads/\d{4}/\d{2}/(?:[0-9]+-)?\d{8}\.(?:txt|yaml|json)
   name: nodev2ray
+  node_count: 1
   start_url: https://nodev2ray.com/free-node/
   type: simple
   up_date: '2026-10-08'
@@ -67,7 +68,7 @@ sites:
     clash/v2ray/sing-box subscription file links
   link_pattern: https://node\.freeclashnode\.com/uploads/\d{4}/\d{2}/[\d\w\.-]+
   name: freeclashnode
-  node_count: 9
+  node_count: 4
   start_url: https://www.freeclashnode.com/free-node/
   type: simple
   up_date: '2026-10-08'

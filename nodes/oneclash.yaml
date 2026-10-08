@@ -1,216 +1,141 @@
 proxies:
-- name: 🇨🇳_CN_中国_1
-  type: vmess
-  server: v37.heduian.link
-  port: 30837
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  network: ws
-  sni: ''
+- name: 🇫🇷_FR_法国
+  type: vless
+  server: fr.noooo.win
+  port: 443
+  uuid: 7b241232-208d-4d36-857e-913f91b044f4
+  tls: true
+  flow: xtls-rprx-vision
   skip-cert-verify: true
-  ws-opts:
-    path: /oooo
-    headers:
-      host: v37.heduian.link
-  ip-version: dual
   udp: true
-  alterId: 2
-  cipher: auto
-- name: 🇺🇸_US_美国_1
-  type: ss
-  server: 38.114.114.108
-  port: 8091
-  password: PCnnH6SQSnfoS27
-  ip-version: dual
-  udp: true
-  cipher: aes-256-gcm
-- name: 🇺🇸_US_美国_2
-  type: trojan
-  server: 172.66.168.209
-  port: 443
-  network: ws
-  password: aTArbZ2F0E
-  sni: uSa-vp-27.bLAzECLOUD.SITE
-  ws-opts:
-    path: /linkvkws
-    headers:
-      host: uSa-vp-27.bLAzECLOUD.SITE
-  ip-version: dual
-  udp: true
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  type: vmess
-  server: v5.heduian.link
-  port: 30805
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  network: ws
-  sni: ''
+- name: 🇭🇰_HK_中国香港
+  type: vless
+  server: 47.86.55.200
+  port: 19321
+  uuid: 394086c4-d8a4-4298-9b62-f70fa711082d
+  tls: false
   skip-cert-verify: true
-  ws-opts:
-    path: /oooo
-    headers:
-      host: ocbc.com
-  ip-version: dual
   udp: true
-  alterId: 2
-  cipher: auto
-- name: 🇺🇸_US_美国_3
-  type: trojan
-  server: 94.131.20.3
-  port: 443
-  password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66
-  sni: chop-wrist-bud.stark-industries.solutions
-  skip-cert-verify: false
-  ip-version: dual
-  udp: true
-- name: 🇺🇸_US_美国->🏳️_unKnow_未知_1
-  type: trojan
-  server: cloudgetservice.mcloudservice.site
-  port: 443
-  network: ws
-  password: aTArbZ2F0E
-  sni: uSa-vp-27.bLAzECLOUD.SITE
-  ws-opts:
-    path: /linkvkws
-  ip-version: dual
-  udp: true
-- name: 🇺🇸_US_美国->🏳️_unKnow_未知_2
-  type: trojan
-  server: 172.67.219.54
-  port: 443
-  network: ws
-  password: aa424865-2762-404c-b767-66c9f98e026b
-  sni: 4RrrrRrrrRrRRRtTtTTTtTYyyYYYyYYiIIIiiiiOooOOoOoOoooO.hUaNgdI2031.DPDnS.orG
-  ws-opts:
-    path: /P6OrM7FLvAhFqZdFGa29fCwxS
-  ip-version: dual
-  udp: true
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
-  type: ss
-  server: cdn-p1-us.youku-dns.com
-  port: 11511
-  password: 77a12a3d-6df0-48c8-a189-b071fcda1456
-  ip-version: dual
-  udp: true
-  cipher: aes-256-gcm
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
+- name: 🇺🇸_US_美国
   type: vmess
-  server: 144.255.36.254
-  port: 14100
-  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
-  network: tcp
-  sni: ''
-  ip-version: dual
-  udp: true
+  server: 82.198.246.214
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
   cipher: auto
-- name: 🇨🇳_CN_中国->🇨🇦_CA_加拿大_1
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰_HK_中国香港_1
   type: vmess
-  server: v35.heduian.link
+  server: 154.37.223.19
+  port: 56972
+  uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  udp: true
+- name: 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
+  type: vless
+  server: r1.mizulina.top
+  port: 22231
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  servername: r1.mizulina.top
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: edge
+  skip-cert-verify: true
+  udp: true
+- name: 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_1
+  type: vless
+  server: 85.234.114.53
+  port: 443
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  servername: r1.mizulina.top
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: edge
+  skip-cert-verify: true
+  udp: true
+- name: 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国
+  type: vmess
+  server: v35.hdacd.com
   port: 30835
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  network: ws
-  sni: ''
-  skip-cert-verify: true
-  ws-opts:
-    path: /oooo
-    headers:
-      host: baidu.com
-  ip-version: dual
-  udp: true
   alterId: 2
   cipher: auto
-- name: 🇪🇸_ES_西班牙
-  type: ss
-  server: 92.38.171.215
-  port: 31348
-  password: 0RsrcFJ1vOsWEqg3P55hvaacKfuShT0cc1h0t8AD0NA8u1uR
-  ip-version: dual
+  tls: false
+  skip-cert-verify: true
   udp: true
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳_CN_中国_2
+- name: 🇭🇰_HK_中国香港_2
   type: vmess
-  server: v33.heduian.link
-  port: 30833
+  server: v10.hdacd.com
+  port: 30807
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      host: baidu.com
-  ip-version: dual
-  udp: true
   alterId: 2
   cipher: auto
-- name: 🇷🇺_RU_俄罗斯
-  type: ss
-  server: 185.231.233.112
-  port: 989
-  password: f8f7aCzcPKbsF8p3
-  ip-version: dual
+  tls: false
+  skip-cert-verify: true
   udp: true
-  cipher: aes-256-cfb
-- name: 🇺🇸_US_美国_4
-  type: ss
-  server: 66.151.41.89
-  port: 33133
-  password: 67dYfi1uAv2ZTxXvLoek39
-  ip-version: dual
-  udp: true
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳_CN_中国->🇨🇦_CA_加拿大_2
+- name: 🇺🇸_US_美国_1
   type: vmess
-  server: v25.heduian.link
-  port: 30825
+  server: 82.198.246.250
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_2
+  type: vless
+  server: 85.234.114.53
+  port: 22231
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  servername: r1.mizulina.top
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: edge
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
+  type: trojan
+  server: 90081bb25c.node.tro.cac.cab
+  port: 41943
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: az.01.naiun.bilibili.com
+  skip-cert-verify: true
+  tls: false
+  udp: true
+- name: 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国
+  type: vmess
+  server: v36.hdacd.com
+  port: 30836
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  network: ws
-  sni: ''
-  skip-cert-verify: true
-  ws-opts:
-    path: /oooo
-    headers:
-      host: baidu.com
-  ip-version: dual
-  udp: true
   alterId: 2
   cipher: auto
-- name: 🇳🇱_NL_荷兰->🇺🇸_US_美国
-  type: vmess
-  server: 45.147.201.231
-  port: 22035
-  uuid: 6e4b0739-2a02-44f5-892d-84ee7fdfb401
-  network: ws
+  tls: false
   skip-cert-verify: true
-  ws-opts:
-    path: /
-  ip-version: dual
   udp: true
-  alterId: 0
-  cipher: auto
-- name: 🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-  type: vmess
-  server: dxv4.pai50288.uk
-  port: 14100
-  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
-  network: tcp
-  ip-version: dual
-  udp: true
-  alterId: 0
-  cipher: auto
-- name: 🇺🇸_US_美国->🇮🇳_IN_印度
-  type: vmess
-  server: 104.18.10.143
-  port: 80
-  uuid: 06135553-6f54-4d32-af08-83bc94823e7e
-  network: ws
-  sni: ''
+- name: 🇺🇸_US_美国_2
+  type: vless
+  server: 47.77.214.201
+  port: 10035
+  uuid: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
+  tls: false
   skip-cert-verify: true
-  ws-opts:
-    path: /s15.html
-    headers:
-      host: 702826126377772025041118280413864.s15.chibaba.filegear-sg.me
-  ip-version: dual
   udp: true
-  alterId: 0
-  cipher: auto
+- name: 🇺🇸_US_美国_3
+  type: trojan
+  server: 90081bb25c.node.tro.cac.cab
+  port: 48697
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: gh.01.naiun.bilibili.com
+  skip-cert-verify: true
+  tls: false
+  udp: true
 - name: 🇻🇳_VN_越南
   type: ss
   server: 103.186.154.181
