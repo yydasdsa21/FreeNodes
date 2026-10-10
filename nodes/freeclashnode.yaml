@@ -1,52 +1,270 @@
 proxies:
-- name: ❓未知丨yoyapai.com
+- name: 🇬🇧GB英國丨yoyapai.com
   type: vless
-  server: 43.108.48.169
-  port: 40701
-  uuid: cdb7d825-9892-4d6f-80b8-7add83159dac
-  servername: amazon.com
+  server: 162.159.152.4
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  network: ws
+  servername: rAyAn-007.mAxImA.DpDnS.OrG
   tls: true
   client-fingerprint: chrome
-  reality-opts:
-    public-key: TWuVILeiSXfCSMZPsqNHtRquNALPRaW5Z51I63zdLEA
-    short-id: 7ef3a8ab2886
+  ws-opts:
+    path: /
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com
+- name: 🇫🇮FI芬兰丨yoyapai.com
   type: vless
-  server: dey.lnmarketplace.net
+  server: 199.232.239.239
   port: 443
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+  uuid: 71a195c5-df47-47ad-81be-f4d3a3a21be3
   network: xhttp
-  servername: dey.lnmarketplace.net
+  servername: ssl.fastly.com
   tls: true
   client-fingerprint: firefox
   alpn:
   - h2
   xhttp-opts:
-    path: /kavir
-    host: dey.lnmarketplace.net
-    mode: stream-one
+    path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel
+    host: cloudnet2026.global.ssl.fastly.net
+    mode: auto
+  skip-cert-verify: false
+  udp: true
+- name: 🇰🇷KR韩國丨yoyapai.com
+  type: vless
+  server: 104.17.144.29
+  port: 8880
+  uuid: 81d55675-8570-4b40-9a77-3125339a0f86
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: spring-sound-8d8e.36-9ff.workers.dev
+  skip-cert-verify: false
+  udp: true
+- name: 🇺🇸US美国丨yoyapai.com
+  type: vless
+  server: 63.141.128.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime42.workers.dev
+  skip-cert-verify: false
+  udp: true
+- name: 🇺🇸US美国丨yoyapai.com_1
+  type: vless
+  server: 8.35.211.73
+  port: 2087
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  network: ws
+  servername: d39333476.pages.dev
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /resource
+    headers:
+      Host: d39333476.pages.dev
+  skip-cert-verify: false
+  udp: true
+- name: 🇨🇦CA加拿大丨yoyapai.com
+  type: vless
+  server: 155.46.167.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+  skip-cert-verify: false
+  udp: true
+- name: 🇨🇦CA加拿大丨yoyapai.com_1
+  type: vless
+  server: 155.46.167.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+  skip-cert-verify: false
+  udp: true
+- name: 🇺🇸US美国丨yoyapai.com_2
+  type: vless
+  server: 129.153.71.28
+  port: 28863
+  uuid: b3a15df4-c8ad-4e98-b427-7a679aee2b18
+  network: ws
+  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
+  skip-cert-verify: false
+  udp: true
+- name: ❓未知丨yoyapai.com
+  type: vless
+  server: 155.46.167.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime50.workers.dev
   skip-cert-verify: false
   udp: true
 - name: ❓未知丨yoyapai.com_1
   type: vless
-  server: dey.lnmarketplace.net
-  port: 443
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  network: xhttp
-  servername: dey.lnmarketplace.net
-  tls: true
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  xhttp-opts:
-    path: /kavir
-    host: dey.lnmarketplace.net
-    mode: stream-one
+  server: 91.206.71.8
+  port: 80
+  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pyip=Telegram🇨🇳+@WangCai2
+    headers:
+      Host: round-haze-8783.294.workers.dev
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪DE德国丨yoyapai.com
+- name: 🇺🇸US美國丨yoyapai.com
+  type: vless
+  server: 45.131.208.4
+  port: 80
+  uuid: 424fa201-3f94-479e-b533-d5257cf9a207
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pyip=Telegram馃嚚馃嚦+@WangCai2
+    headers:
+      Host: floral-thunder-10d3.82-67d.workers.dev
+  skip-cert-verify: false
+  udp: true
+- name: 🇺🇸US美国丨yoyapai.com_3
+  type: vless
+  server: 155.46.167.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime50.workers.dev
+  skip-cert-verify: false
+  udp: true
+- name: ❓未知丨yoyapai.com_2
+  type: vless
+  server: 185.148.104.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime51.workers.dev
+  skip-cert-verify: false
+  udp: true
+- name: ❓未知丨yoyapai.com_3
+  type: vless
+  server: 185.148.107.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime55.workers.dev
+  skip-cert-verify: false
+  udp: true
+- name: 🇩🇪DE德國丨yoyapai.com
+  type: vless
+  server: 91.206.71.8
+  port: 80
+  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pyip=Telegram🇨🇳 @WangCai2
+    headers:
+      Host: round-haze-8783.294.workers.dev
+  skip-cert-verify: false
+  udp: true
+- name: ❓未知丨yoyapai.com_4
+  type: vless
+  server: 185.148.104.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime51.workers.dev
+  skip-cert-verify: false
+  udp: true
+- name: ❓未知丨yoyapai.com_5
+  type: vless
+  server: 185.148.104.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime51.workers.dev
+  skip-cert-verify: false
+  udp: true
+- name: 🇺🇸US美國丨yoyapai.com_1
+  type: vless
+  server: 45.131.208.4
+  port: 80
+  uuid: 424fa201-3f94-479e-b533-d5257cf9a207
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: floral-thunder-10d3.82-67d.workers.dev
+  skip-cert-verify: false
+  udp: true
+- name: ❓未知丨yoyapai.com_6
+  type: vless
+  server: lucky-field-0220.191-de2.workers.dev
+  port: 8880
+  uuid: 01c2fb74-10b5-452d-b893-67cb528b6a8d
+  network: ws
+  servername: lucky-field-0220.191-de2.workers.dev
+  tls: false
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+  skip-cert-verify: false
+  udp: true
+- name: 🇰🇷KR韩国丨yoyapai.com
+  type: vless
+  server: crimson-smoke-7818.397.workers.dev
+  port: 8880
+  uuid: d6bdda67-168d-4501-a2c1-ef01070cb327
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  skip-cert-verify: false
+  udp: true
+- name: 🇺🇸美国丨yoyapai.com
   type: vless
   server: dey.lnmarketplace.net
   port: 443
@@ -54,7 +272,8 @@ proxies:
   network: xhttp
   servername: dey.lnmarketplace.net
   tls: true
-  client-fingerprint: chrome
+  alpn:
+  - h2
   xhttp-opts:
     path: /kavir
     host: dey.lnmarketplace.net
@@ -75,71 +294,6 @@ proxies:
     mode: stream-one
   skip-cert-verify: false
   udp: true
-- name: 🇫🇮FI芬兰丨yoyapai.com
-  type: vless
-  server: psf-3.weedly.top
-  port: 80
-  uuid: b0fae3b7-02de-4002-b8ca-b7159fe33841
-  network: ws
-  servername: psf-3.weedly.top
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: machinemag.ir
-  skip-cert-verify: false
-  udp: true
-- name: 🇫🇮FI芬兰丨yoyapai.com_1
-  type: vless
-  server: 199.232.239.239
-  port: 443
-  uuid: 71a195c5-df47-47ad-81be-f4d3a3a21be3
-  network: xhttp
-  servername: ssl.fastly.com
-  tls: true
-  client-fingerprint: firefox
-  alpn:
-  - h2
-  xhttp-opts:
-    path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel
-    host: cloudnet2026.global.ssl.fastly.net
-    mode: auto
-  skip-cert-verify: false
-  udp: true
-- name: ❓未知丨yoyapai.com_2
-  type: vless
-  server: dey.lnmarketplace.net
-  port: 443
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  network: xhttp
-  servername: dey.lnmarketplace.net
-  tls: true
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  xhttp-opts:
-    path: /kavir
-    host: dey.lnmarketplace.net
-    mode: stream-one
-  skip-cert-verify: false
-  udp: true
-- name: ❓未知丨yoyapai.com_3
-  type: vless
-  server: dey.lnmarketplace.net
-  port: 443
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  network: xhttp
-  servername: dey.lnmarketplace.net
-  tls: true
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  xhttp-opts:
-    path: /kavir
-    host: dey.lnmarketplace.net
-    mode: stream-one
-  skip-cert-verify: false
-  udp: true
 - name: 🇳🇱NL荷兰丨yoyapai.com_1
   type: vless
   server: dey.lnmarketplace.net
@@ -157,35 +311,23 @@ proxies:
     mode: stream-one
   skip-cert-verify: false
   udp: true
-- name: 🇫🇮FI芬兰丨yoyapai.com_2
+- name: ❓未知丨yoyapai.com_7
   type: vless
-  server: psf-3.weedly.top
-  port: 80
-  uuid: b0fae3b7-02de-4002-b8ca-b7159fe33841
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: machinemag.ir
-  skip-cert-verify: false
-  udp: true
-- name: 🇸🇬SG新加坡丨yoyapai.com
-  type: vless
-  server: 103.25.202.102
+  server: 89.35.14.34
   port: 443
-  uuid: a853e120-3570-462b-aec1-e8f3d4f92d24
-  network: ws
-  servername: asia.csmaster.site
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  servername: md5.univesalsrv.com
   tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: asia.csmaster.site
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: app.v1.PushService
+  reality-opts:
+    public-key: 99MRki6b93wC-hhDHe9yq3IXE3KtPGw4RkFAnpI-8gg
+    short-id: aa9884f2982b7d3c
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸美国丨yoyapai.com
+- name: 🇩🇪DE德国丨yoyapai.com
   type: vless
   server: dey.lnmarketplace.net
   port: 443
@@ -193,15 +335,14 @@ proxies:
   network: xhttp
   servername: dey.lnmarketplace.net
   tls: true
-  alpn:
-  - h2
+  client-fingerprint: chrome
   xhttp-opts:
     path: /kavir
     host: dey.lnmarketplace.net
     mode: stream-one
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_4
+- name: ❓未知丨yoyapai.com_8
   type: vless
   server: dey.lnmarketplace.net
   port: 443
@@ -218,96 +359,37 @@ proxies:
     mode: stream-one
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com
+- name: ❓未知丨yoyapai.com_9
   type: vless
-  server: tk1.high-speed-test-56424.me
+  server: dey.lnmarketplace.net
   port: 443
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-  servername: aws.amazon.com
+  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+  network: xhttp
+  servername: dey.lnmarketplace.net
   tls: true
-  flow: xtls-rprx-vision
   client-fingerprint: chrome
-  reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: 21270a66
-  skip-cert-verify: false
-  udp: true
-- name: 🇱🇻LV拉脱维亚丨yoyapai.com
-  type: vless
-  server: 195.123.212.60
-  port: 15392
-  uuid: de78ba38-5600-47d1-b93b-b45bdf280ac0
-  servername: intel.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: TgaE-83sqLrJ6auwPP2Nq7vDO_xuFqa6uMnG4Au18jg
-    short-id: '82'
-  skip-cert-verify: false
-  udp: true
-- name: ❓未知丨yoyapai.com_5
-  type: vless
-  server: 89.35.14.34
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  servername: md5.univesalsrv.com
-  tls: true
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: app.v1.PushService
-  reality-opts:
-    public-key: 99MRki6b93wC-hhDHe9yq3IXE3KtPGw4RkFAnpI-8gg
-    short-id: aa9884f2982b7d3c
-  skip-cert-verify: false
-  udp: true
-- name: 🇲🇩MD摩爾多瓦丨yoyapai.com
-  type: vless
-  server: 89.35.14.34
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  servername: md5.univesalsrv.com
-  tls: true
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: app.v1.PushService
-  reality-opts:
-    public-key: 99MRki6b93wC-hhDHe9yq3IXE3KtPGw4RkFAnpI-8gg
-    short-id: aa9884f2982b7d3c
-  skip-cert-verify: false
-  udp: true
-- name: 🇮🇷伊朗丨yoyapai.com
-  type: vless
-  server: link.mrpgd.ir
-  port: 6008
-  uuid: e19f406e-0f0f-4abd-9861-a3d2d213b650
-  network: xhttp
-  servername: cafebazaar.ir
-  tls: false
-  xhttp-opts:
-    path: /assets
-    host: cafebazaar.ir
-    mode: stream-up
-  skip-cert-verify: false
-  udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_1
-  type: vless
-  server: pew.dianawmoon.dpdns.org
-  port: 443
-  uuid: 26769ac3-b34c-430a-87f8-e1de14619d25
-  network: xhttp
-  servername: pew.dianawmoon.dpdns.org
-  tls: true
-  client-fingerprint: random
   alpn:
-  - h3
   - h2
   xhttp-opts:
-    path: /21096/noencd1ana
-    host: pew.dianawmoon.dpdns.org
-    mode: auto
+    path: /kavir
+    host: dey.lnmarketplace.net
+    mode: stream-one
+  skip-cert-verify: false
+  udp: true
+- name: ❓未知丨yoyapai.com_10
+  type: vless
+  server: 89.35.14.34
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  servername: md5.univesalsrv.com
+  tls: true
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: app.v1.PushService
+  reality-opts:
+    public-key: 99MRki6b93wC-hhDHe9yq3IXE3KtPGw4RkFAnpI-8gg
+    short-id: aa9884f2982b7d3c
   skip-cert-verify: false
   udp: true
 - name: 🇲🇩MD摩尔多瓦丨yoyapai.com
@@ -326,39 +408,6 @@ proxies:
     short-id: aa9884f2982b7d3c
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_6
-  type: vless
-  server: 89.35.14.34
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  servername: md5.univesalsrv.com
-  tls: true
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: app.v1.PushService
-  reality-opts:
-    public-key: 99MRki6b93wC-hhDHe9yq3IXE3KtPGw4RkFAnpI-8gg
-    short-id: aa9884f2982b7d3c
-  skip-cert-verify: false
-  udp: true
-- name: 🇻🇳VN越南丨yoyapai.com
-  type: vless
-  server: 104.27.0.121
-  port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  network: xhttp
-  servername: b33ec4a1s226.fuhuovps.xyz
-  tls: true
-  client-fingerprint: ios
-  alpn:
-  - h2
-  - http/1.1
-  xhttp-opts:
-    path: e0d9cd6ea04ecda957b4ca0869e038af
-    host: b33ec4a1s226.fuhuovps.xyz
-  skip-cert-verify: false
-  udp: true
 - name: 🇲🇩MD摩尔多瓦丨yoyapai.com_1
   type: vless
   server: 89.35.14.34
@@ -375,7 +424,85 @@ proxies:
     short-id: aa9884f2982b7d3c
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_1
+- name: ❓未知丨yoyapai.com_11
+  type: vless
+  server: dey.lnmarketplace.net
+  port: 443
+  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+  network: xhttp
+  servername: dey.lnmarketplace.net
+  tls: true
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  xhttp-opts:
+    path: /kavir
+    host: dey.lnmarketplace.net
+    mode: stream-one
+  skip-cert-verify: false
+  udp: true
+- name: 🇲🇩MD摩爾多瓦丨yoyapai.com
+  type: vless
+  server: 89.35.14.34
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  servername: md5.univesalsrv.com
+  tls: true
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: app.v1.PushService
+  reality-opts:
+    public-key: 99MRki6b93wC-hhDHe9yq3IXE3KtPGw4RkFAnpI-8gg
+    short-id: aa9884f2982b7d3c
+  skip-cert-verify: false
+  udp: true
+- name: 🇰🇷KR韓國丨yoyapai.com
+  type: vless
+  server: crimson-smoke-7818.397.workers.dev
+  port: 8880
+  uuid: d6bdda67-168d-4501-a2c1-ef01070cb327
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  skip-cert-verify: false
+  udp: true
+- name: 🇺🇸US美國丨yoyapai.com_2
+  type: vless
+  server: dey.lnmarketplace.net
+  port: 443
+  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+  network: xhttp
+  servername: dey.lnmarketplace.net
+  tls: true
+  client-fingerprint: firefox
+  alpn:
+  - h2
+  xhttp-opts:
+    path: /kavir
+    host: dey.lnmarketplace.net
+    mode: stream-one
+  skip-cert-verify: false
+  udp: true
+- name: ❓未知丨yoyapai.com_12
+  type: vless
+  server: dey.lnmarketplace.net
+  port: 443
+  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+  network: xhttp
+  servername: dey.lnmarketplace.net
+  tls: true
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  xhttp-opts:
+    path: /kavir
+    host: dey.lnmarketplace.net
+    mode: stream-one
+  skip-cert-verify: false
+  udp: true
+- name: 🇺🇸US美國丨yoyapai.com_3
   type: vless
   server: 108.162.194.135
   port: 443
@@ -456,7 +583,7 @@ proxies:
   password: 7e1dd4c55bf85da5
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_2
+- name: 🇺🇸US美國丨yoyapai.com_4
   type: vless
   server: support.zoom.us
   port: 443
@@ -471,7 +598,7 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_3
+- name: 🇺🇸US美國丨yoyapai.com_5
   type: vless
   server: 104.24.9.6
   port: 443
@@ -486,7 +613,7 @@ proxies:
       Host: ld.223350.xyz
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_4
+- name: 🇺🇸US美國丨yoyapai.com_6
   type: vless
   server: www.cnae.top
   port: 443
@@ -570,7 +697,7 @@ proxies:
     short-id: 2cfb5a0ae8ab0cb0
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_5
+- name: 🇺🇸US美國丨yoyapai.com_7
   type: ss
   server: chengbai02.ascwt179.com
   port: 13223
@@ -578,7 +705,7 @@ proxies:
   password: JVrsLLN1tkN8oXZO
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_6
+- name: 🇺🇸US美國丨yoyapai.com_8
   type: vless
   server: cf.090227.xyz
   port: 443
@@ -593,7 +720,7 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_7
+- name: 🇺🇸US美國丨yoyapai.com_9
   type: vless
   server: 162.159.10.87
   port: 443
@@ -608,7 +735,7 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_8
+- name: 🇺🇸US美國丨yoyapai.com_10
   type: vless
   server: 162.159.60.167
   port: 443
@@ -779,7 +906,7 @@ proxies:
   ws-opts:
     path: /0zNW56sF
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_9
+- name: 🇺🇸US美國丨yoyapai.com_11
   type: vless
   server: 185.193.29.123
   port: 443
@@ -793,7 +920,7 @@ proxies:
       Host: notls.lukongtou.eu.org
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_10
+- name: 🇺🇸US美國丨yoyapai.com_12
   type: vless
   server: 18.239.134.69
   port: 80
@@ -1143,7 +1270,7 @@ proxies:
     short-id: 364994a6f61fc955
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_11
+- name: 🇺🇸US美國丨yoyapai.com_13
   type: vless
   server: 45.155.52.231
   port: 443
@@ -1414,7 +1541,7 @@ proxies:
     mode: auto
   skip-cert-verify: false
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com
+- name: 🇨🇦CA加拿大丨yoyapai.com_2
   type: vless
   server: 104.26.2.173
   port: 443
@@ -1955,19 +2082,7 @@ proxies:
     short-id: e852dc
   skip-cert-verify: false
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_1
-  type: vless
-  server: 155.46.167.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: false
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-  skip-cert-verify: false
-  udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_2
+- name: 🇨🇦CA加拿大丨yoyapai.com_3
   type: vless
   server: 104.21.23.72
   port: 8880
@@ -1980,7 +2095,7 @@ proxies:
       Host: calm-haze-d105.21-7cd.workers.dev
   skip-cert-verify: false
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_3
+- name: 🇨🇦CA加拿大丨yoyapai.com_4
   type: vless
   server: 104.21.23.72
   port: 8880
@@ -1993,7 +2108,7 @@ proxies:
       Host: rapid-lab-95ef.173-74c.workers.dev
   skip-cert-verify: false
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_4
+- name: 🇨🇦CA加拿大丨yoyapai.com_5
   type: trojan
   server: 104.18.152.225
   port: 443
@@ -2005,7 +2120,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_5
+- name: 🇨🇦CA加拿大丨yoyapai.com_6
   type: trojan
   server: 104.18.152.219
   port: 443
@@ -2176,7 +2291,7 @@ proxies:
   udp: true
 - name: 🇫🇷法国丨yoyapai.com_2
   type: trojan
-  server: 104.18.22.63
+  server: 104.18.152.152
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -2185,6 +2300,16 @@ proxies:
     path: /assignment
   udp: true
 - name: 🇫🇷法国丨yoyapai.com_3
+  type: trojan
+  server: 104.18.22.63
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: false
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 🇫🇷法国丨yoyapai.com_4
   type: trojan
   server: 104.18.152.133
   port: 443
@@ -2218,7 +2343,7 @@ proxies:
     short-id: e852dc
   skip-cert-verify: false
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_6
+- name: 🇨🇦CA加拿大丨yoyapai.com_7
   type: trojan
   server: 104.18.152.77
   port: 443
@@ -2230,7 +2355,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_7
+- name: 🇨🇦CA加拿大丨yoyapai.com_8
   type: trojan
   server: 104.18.152.140
   port: 443
@@ -2242,7 +2367,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_8
+- name: 🇨🇦CA加拿大丨yoyapai.com_9
   type: trojan
   server: 104.16.174.44
   port: 443
@@ -2254,7 +2379,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_9
+- name: 🇨🇦CA加拿大丨yoyapai.com_10
   type: trojan
   server: 104.18.152.204
   port: 443
@@ -2264,7 +2389,7 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_10
+- name: 🇨🇦CA加拿大丨yoyapai.com_11
   type: trojan
   server: 104.16.174.117
   port: 443
@@ -2276,7 +2401,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_11
+- name: 🇨🇦CA加拿大丨yoyapai.com_12
   type: trojan
   server: 104.18.152.208
   port: 443
@@ -2343,7 +2468,7 @@ proxies:
       Host: holy-breeze-0bac.47-dec.workers.dev
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_7
+- name: ❓未知丨yoyapai.com_13
   type: vless
   server: 50.62.194.30
   port: 8880
@@ -2354,19 +2479,6 @@ proxies:
     path: /
     headers:
       Host: vms.lifetime37.workers.dev
-  skip-cert-verify: false
-  udp: true
-- name: ❓未知丨yoyapai.com_8
-  type: vless
-  server: 91.206.71.8
-  port: 80
-  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=Telegram🇨🇳+@WangCai2
-    headers:
-      Host: round-haze-8783.294.workers.dev
   skip-cert-verify: false
   udp: true
 - name: 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
@@ -2410,7 +2522,7 @@ proxies:
       Host: ld.223350.xyz
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_9
+- name: ❓未知丨yoyapai.com_14
   type: vless
   server: 104.26.13.40
   port: 8880
@@ -2423,7 +2535,7 @@ proxies:
       Host: square-sea-01d1.339-be3.workers.dev
   skip-cert-verify: false
   udp: true
-- name: 🇸🇬SG新加坡丨yoyapai.com_1
+- name: 🇸🇬SG新加坡丨yoyapai.com
   type: vless
   server: 45.40.149.50
   port: 8880
@@ -2436,7 +2548,7 @@ proxies:
       Host: vms.lifetime39.workers.dev
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_10
+- name: ❓未知丨yoyapai.com_15
   type: vless
   server: www.true.th
   port: 443
@@ -2450,20 +2562,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_11
-  type: vless
-  server: 185.148.107.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime55.workers.dev
-  skip-cert-verify: false
-  udp: true
-- name: ❓未知丨yoyapai.com_12
+- name: ❓未知丨yoyapai.com_16
   type: trojan
   server: 104.26.14.137
   port: 443
@@ -2475,7 +2574,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_12
+- name: 🇨🇦CA加拿大丨yoyapai.com_13
   type: trojan
   server: 104.16.73.213
   port: 443
@@ -2485,7 +2584,7 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_2
+- name: 🇩🇪DE德国丨yoyapai.com_1
   type: vless
   server: 217.163.76.118
   port: 2086
@@ -2498,7 +2597,7 @@ proxies:
     mode: auto
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_13
+- name: ❓未知丨yoyapai.com_17
   type: trojan
   server: 104.26.14.137
   port: 443
@@ -2508,7 +2607,7 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: ❓未知丨yoyapai.com_14
+- name: ❓未知丨yoyapai.com_18
   type: trojan
   server: 104.26.14.137
   port: 443
@@ -2518,7 +2617,7 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: ❓未知丨yoyapai.com_15
+- name: ❓未知丨yoyapai.com_19
   type: trojan
   server: 104.17.111.4
   port: 443
@@ -2528,7 +2627,7 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_13
+- name: 🇨🇦CA加拿大丨yoyapai.com_14
   type: trojan
   server: 104.18.152.229
   port: 443
@@ -2538,7 +2637,7 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_14
+- name: 🇨🇦CA加拿大丨yoyapai.com_15
   type: trojan
   server: 104.18.152.187
   port: 443
@@ -2548,7 +2647,7 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com_1
+- name: 🇺🇸US美国丨yoyapai.com_4
   type: trojan
   server: 216.24.57.7
   port: 443
@@ -2560,7 +2659,7 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: ❓未知丨yoyapai.com_16
+- name: ❓未知丨yoyapai.com_20
   type: trojan
   server: 104.18.152.143
   port: 443
@@ -2648,6 +2747,20 @@ proxies:
     short-id: a7f3c91b2e6d84c0
   skip-cert-verify: false
   udp: true
+- name: 🇸🇬SG新加坡丨yoyapai.com_1
+  type: vless
+  server: 154.196.139.50
+  port: 443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  servername: asia.cendora.ru
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
+    short-id: e53048e82bb20077
+  skip-cert-verify: false
+  udp: true
 - name: 🇸🇬SG新加坡丨yoyapai.com_2
   type: vless
   server: 154.196.139.50
@@ -2662,21 +2775,7 @@ proxies:
     short-id: e53048e82bb20077
   skip-cert-verify: false
   udp: true
-- name: 🇸🇬SG新加坡丨yoyapai.com_3
-  type: vless
-  server: 154.196.139.50
-  port: 443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  servername: asia.cendora.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
-    short-id: e53048e82bb20077
-  skip-cert-verify: false
-  udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_3
+- name: 🇩🇪DE德国丨yoyapai.com_2
   type: vless
   server: 217.60.68.196
   port: 443
@@ -2712,7 +2811,7 @@ proxies:
     short-id: 00bca5982f82d083
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com_2
+- name: 🇺🇸US美国丨yoyapai.com_5
   type: vless
   server: 200.165.228.51
   port: 2200
@@ -2724,7 +2823,7 @@ proxies:
     path: /v1
   skip-cert-verify: false
   udp: true
-- name: 🇫🇮FI芬兰丨yoyapai.com_3
+- name: 🇫🇮FI芬兰丨yoyapai.com_1
   type: vless
   server: 65.109.12.58
   port: 2053
@@ -2896,7 +2995,7 @@ proxies:
     short-id: dc8109baf0f607ea
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com_3
+- name: 🇺🇸US美国丨yoyapai.com_6
   type: vless
   server: 165.231.150.12
   port: 443
@@ -2913,7 +3012,7 @@ proxies:
     mode: auto
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com_4
+- name: 🇺🇸US美国丨yoyapai.com_7
   type: vless
   server: 84.75.220.239
   port: 443
@@ -2930,7 +3029,7 @@ proxies:
     mode: auto
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com_5
+- name: 🇺🇸US美国丨yoyapai.com_8
   type: vless
   server: 84.75.221.12
   port: 443
@@ -2947,7 +3046,7 @@ proxies:
     mode: auto
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com_6
+- name: 🇺🇸US美国丨yoyapai.com_9
   type: vless
   server: 84.75.221.12
   port: 443
@@ -2964,7 +3063,7 @@ proxies:
     mode: auto
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com_7
+- name: 🇺🇸US美国丨yoyapai.com_10
   type: vless
   server: 84.75.221.12
   port: 443
@@ -3038,7 +3137,7 @@ proxies:
       Host: rubifen.adaspoloandco.com
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_17
+- name: ❓未知丨yoyapai.com_21
   type: vless
   server: 185.227.70.162
   port: 8082
@@ -3053,7 +3152,7 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_18
+- name: ❓未知丨yoyapai.com_22
   type: vless
   server: 185.227.70.42
   port: 8082
@@ -3068,7 +3167,7 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_19
+- name: ❓未知丨yoyapai.com_23
   type: vless
   server: 5.178.85.233
   port: 2793
@@ -3084,7 +3183,7 @@ proxies:
     short-id: f94a4ac5
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com_8
+- name: 🇺🇸US美国丨yoyapai.com_11
   type: vless
   server: 45.151.30.127
   port: 9873
@@ -3171,7 +3270,7 @@ proxies:
     public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_4
+- name: 🇩🇪DE德国丨yoyapai.com_3
   type: vless
   server: 94.249.239.33
   port: 8443
@@ -3187,7 +3286,7 @@ proxies:
     short-id: a96b6c796068f51c
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_5
+- name: 🇩🇪DE德国丨yoyapai.com_4
   type: vless
   server: 217.60.68.196
   port: 13443
@@ -3201,7 +3300,7 @@ proxies:
     short-id: a7f3c91b2e6d84c0
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_6
+- name: 🇩🇪DE德国丨yoyapai.com_5
   type: vless
   server: 217.60.68.196
   port: 13443
@@ -3215,7 +3314,7 @@ proxies:
     short-id: a7f3c91b2e6d84c0
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_7
+- name: 🇩🇪DE德国丨yoyapai.com_6
   type: vless
   server: 217.60.68.196
   port: 443
@@ -3229,7 +3328,7 @@ proxies:
     short-id: 00bca5982f82d083
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_8
+- name: 🇩🇪DE德国丨yoyapai.com_7
   type: vless
   server: 217.60.68.196
   port: 443
@@ -3243,7 +3342,7 @@ proxies:
     short-id: 00bca5982f82d083
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_9
+- name: 🇩🇪DE德国丨yoyapai.com_8
   type: vless
   server: 217.60.68.196
   port: 443
@@ -3257,7 +3356,7 @@ proxies:
     short-id: 00bca5982f82d083
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_10
+- name: 🇩🇪DE德国丨yoyapai.com_9
   type: vless
   server: 200.165.228.114
   port: 9871
@@ -3273,7 +3372,7 @@ proxies:
     short-id: aabb
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_11
+- name: 🇩🇪DE德国丨yoyapai.com_10
   type: vless
   server: 200.165.228.114
   port: 9871
@@ -3289,7 +3388,7 @@ proxies:
     short-id: aabb
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_12
+- name: 🇩🇪DE德国丨yoyapai.com_11
   type: vless
   server: 200.165.228.114
   port: 9871
@@ -3305,7 +3404,7 @@ proxies:
     short-id: aabbccdd
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_13
+- name: 🇩🇪DE德国丨yoyapai.com_12
   type: vless
   server: 200.165.228.114
   port: 9871
@@ -3321,7 +3420,7 @@ proxies:
     short-id: aabb
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_14
+- name: 🇩🇪DE德国丨yoyapai.com_13
   type: vless
   server: 169.40.42.229
   port: 443
@@ -3335,7 +3434,7 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_20
+- name: ❓未知丨yoyapai.com_24
   type: trojan
   server: 104.18.12.149
   port: 443
@@ -3345,7 +3444,7 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: ❓未知丨yoyapai.com_21
+- name: ❓未知丨yoyapai.com_25
   type: trojan
   server: 8.6.112.6
   port: 443
@@ -3355,7 +3454,7 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com_9
+- name: 🇺🇸US美国丨yoyapai.com_12
   type: vless
   server: 199.232.78.159
   port: 443
@@ -3369,7 +3468,7 @@ proxies:
       Host: pan1.global.ssl.fastly.net
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com_10
+- name: 🇺🇸US美国丨yoyapai.com_13
   type: vless
   server: 18.154.132.116
   port: 443
@@ -3398,7 +3497,7 @@ proxies:
       Host: forfreeuse.rtqa.ru
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_22
+- name: ❓未知丨yoyapai.com_26
   type: vmess
   server: 2001:bc8:32d7:1a9::2
   port: 23388
@@ -3422,7 +3521,7 @@ proxies:
     path: /v1
   skip-cert-verify: false
   udp: true
-- name: 🇫🇮FI芬兰丨yoyapai.com_4
+- name: 🇫🇮FI芬兰丨yoyapai.com_2
   type: vless
   server: 200.165.225.174
   port: 443
@@ -3489,7 +3588,7 @@ proxies:
     short-id: 53bf38279e382cb0
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_15
+- name: 🇩🇪DE德国丨yoyapai.com_14
   type: vless
   server: 150.241.101.218.fwqfw783rg2dad.website
   port: 443
@@ -3517,7 +3616,7 @@ proxies:
       Host: live.ok.ru
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_23
+- name: ❓未知丨yoyapai.com_27
   type: vless
   server: 199.232.239.2
   port: 443
@@ -3534,7 +3633,7 @@ proxies:
     mode: packet-up
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_24
+- name: ❓未知丨yoyapai.com_28
   type: vless
   server: 18.157.224.206
   port: 22224
@@ -3542,7 +3641,7 @@ proxies:
   tls: false
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_25
+- name: ❓未知丨yoyapai.com_29
   type: vless
   server: 217.19.122.234
   port: 9001
@@ -3558,7 +3657,7 @@ proxies:
     short-id: 6ba85179e30d4fc2
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_26
+- name: ❓未知丨yoyapai.com_30
   type: vless
   server: 45.151.30.127
   port: 9873
@@ -3608,7 +3707,7 @@ proxies:
   client-fingerprint: chrome
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_16
+- name: 🇩🇪DE德国丨yoyapai.com_15
   type: vless
   server: 151.101.69.253
   port: 443
@@ -3635,7 +3734,7 @@ proxies:
     path: /8f2690e2d016
   skip-cert-verify: false
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_15
+- name: 🇨🇦CA加拿大丨yoyapai.com_16
   type: trojan
   server: 104.16.174.37
   port: 443
@@ -3666,7 +3765,7 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇰🇷KR韩国丨yoyapai.com
+- name: 🇰🇷KR韩国丨yoyapai.com_1
   type: vless
   server: 116.93.199.28
   port: 25524
@@ -3696,7 +3795,7 @@ proxies:
       Host: sub.mot.ip-ddns.com
   skip-cert-verify: false
   udp: true
-- name: 🇱🇻LV拉脱维亚丨yoyapai.com_1
+- name: 🇱🇻LV拉脱维亚丨yoyapai.com
   type: vless
   server: 193.163.203.170
   port: 443
@@ -3822,7 +3921,21 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com_11
+- name: 🇱🇻LV拉脱维亚丨yoyapai.com_1
+  type: vless
+  server: 195.123.212.60
+  port: 15392
+  uuid: de78ba38-5600-47d1-b93b-b45bdf280ac0
+  servername: intel.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: TgaE-83sqLrJ6auwPP2Nq7vDO_xuFqa6uMnG4Au18jg
+    short-id: '82'
+  skip-cert-verify: false
+  udp: true
+- name: 🇺🇸US美国丨yoyapai.com_14
   type: vless
   server: www.speedtest.net
   port: 443
@@ -3848,7 +3961,7 @@ proxies:
     short-id: 9c2378562188c3cb
   skip-cert-verify: false
   udp: true
-- name: 🇸🇬SG新加坡丨yoyapai.com_4
+- name: 🇸🇬SG新加坡丨yoyapai.com_3
   type: vless
   server: 47.131.189.221
   port: 443
@@ -3863,7 +3976,7 @@ proxies:
       Host: mia7.pages.dev
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_17
+- name: 🇩🇪DE德国丨yoyapai.com_16
   type: trojan
   server: 88.198.82.150
   port: 443
@@ -3873,7 +3986,7 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_16
+- name: 🇨🇦CA加拿大丨yoyapai.com_17
   type: trojan
   server: 104.18.152.133
   port: 443
@@ -3883,7 +3996,7 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_17
+- name: 🇨🇦CA加拿大丨yoyapai.com_18
   type: trojan
   server: 104.16.174.101
   port: 443
@@ -3892,19 +4005,6 @@ proxies:
   skip-cert-verify: false
   ws-opts:
     path: /assignment
-  udp: true
-- name: 🇺🇸US美国丨yoyapai.com_12
-  type: vless
-  server: 63.141.128.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime42.workers.dev
-  skip-cert-verify: false
   udp: true
 - name: 🇭🇰HK香港丨yoyapai.com_11
   type: vless
@@ -3918,17 +4018,6 @@ proxies:
   reality-opts:
     public-key: F-yU1O5Q00eeyUdst7ZGDsgo4xS5mrdNwg0UcfsrVQs
     short-id: d889b977
-  skip-cert-verify: false
-  udp: true
-- name: 🇰🇷KR韩国丨yoyapai.com_1
-  type: vless
-  server: crimson-smoke-7818.397.workers.dev
-  port: 8880
-  uuid: d6bdda67-168d-4501-a2c1-ef01070cb327
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
   skip-cert-verify: false
   udp: true
 - name: 🇳🇱NL荷兰丨yoyapai.com_6
@@ -3948,6 +4037,20 @@ proxies:
     host: nlo.ufogame.tech
   skip-cert-verify: false
   udp: true
+- name: 🇩🇪DE德国丨yoyapai.com_17
+  type: vless
+  server: 177.3.213.112
+  port: 443
+  uuid: f495298f-2bdb-4fd8-9ac9-5dd33d1b482a
+  servername: germanz.ruletka.study
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  skip-cert-verify: false
+  udp: true
 - name: 🇷🇺RU俄罗斯丨yoyapai.com_10
   type: vless
   server: 45.130.254.10
@@ -3962,35 +4065,7 @@ proxies:
     short-id: eba1498e012ef580
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪DE德國丨yoyapai.com
-  type: vless
-  server: 91.206.71.8
-  port: 80
-  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=Telegram🇨🇳 @WangCai2
-    headers:
-      Host: round-haze-8783.294.workers.dev
-  skip-cert-verify: false
-  udp: true
-- name: 🇺🇸US美国丨yoyapai.com_13
-  type: vless
-  server: 8.35.211.73
-  port: 2087
-  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
-  network: ws
-  servername: d39333476.pages.dev
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /resource
-    headers:
-      Host: d39333476.pages.dev
-  skip-cert-verify: false
-  udp: true
-- name: ❓未知丨yoyapai.com_27
+- name: ❓未知丨yoyapai.com_31
   type: vless
   server: 150.40.126.24
   port: 443
@@ -4006,7 +4081,7 @@ proxies:
     short-id: 4872856d5489c37d
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_28
+- name: ❓未知丨yoyapai.com_32
   type: vless
   server: 31.56.189.147
   port: 443
@@ -4022,7 +4097,7 @@ proxies:
     short-id: 35debf0dc757d053
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_29
+- name: ❓未知丨yoyapai.com_33
   type: vless
   server: 150.40.126.24
   port: 443
@@ -4054,7 +4129,7 @@ proxies:
     short-id: 9a72d40f1ff882b3
   skip-cert-verify: false
   udp: true
-- name: 🇸🇬SG新加坡丨yoyapai.com_5
+- name: 🇸🇬SG新加坡丨yoyapai.com_4
   type: vless
   server: 136.85.2.50
   port: 443
@@ -4067,7 +4142,7 @@ proxies:
     short-id: eb97ce837da2f6ad
   skip-cert-verify: false
   udp: true
-- name: 🇸🇬SG新加坡丨yoyapai.com_6
+- name: 🇸🇬SG新加坡丨yoyapai.com_5
   type: vless
   server: 136.85.2.50
   port: 443
@@ -4080,7 +4155,7 @@ proxies:
     short-id: eb97ce837da2f6ad
   skip-cert-verify: false
   udp: true
-- name: 🇸🇬SG新加坡丨yoyapai.com_7
+- name: 🇸🇬SG新加坡丨yoyapai.com_6
   type: vless
   server: 104.17.191.15
   port: 8880
@@ -4093,7 +4168,7 @@ proxies:
       Host: fancy-haze-ab00.236-68b.workers.dev
   skip-cert-verify: false
   udp: true
-- name: 🇸🇬SG新加坡丨yoyapai.com_8
+- name: 🇸🇬SG新加坡丨yoyapai.com_7
   type: vless
   server: 172.65.90.53
   port: 8880
@@ -4106,7 +4181,7 @@ proxies:
       Host: orange-lab-896e.365-80b.workers.dev
   skip-cert-verify: false
   udp: true
-- name: 🇸🇬SG新加坡丨yoyapai.com_9
+- name: 🇸🇬SG新加坡丨yoyapai.com_8
   type: vless
   server: 172.64.94.251
   port: 8880
@@ -4279,21 +4354,6 @@ proxies:
     path: /vless-ws
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com_14
-  type: vless
-  server: 129.153.71.28
-  port: 28863
-  uuid: b3a15df4-c8ad-4e98-b427-7a679aee2b18
-  network: ws
-  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-  skip-cert-verify: false
-  udp: true
 - name: 🇺🇸US美国丨yoyapai.com_15
   type: vless
   server: 104.16.72.101
@@ -4403,7 +4463,7 @@ proxies:
     public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_30
+- name: ❓未知丨yoyapai.com_34
   type: vless
   server: www.gov.se
   port: 8080
@@ -4417,20 +4477,7 @@ proxies:
       Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_31
-  type: vless
-  server: 185.148.104.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime51.workers.dev
-  skip-cert-verify: false
-  udp: true
-- name: ❓未知丨yoyapai.com_32
+- name: ❓未知丨yoyapai.com_35
   type: vless
   server: 108.162.198.178
   port: 2086
@@ -4443,7 +4490,7 @@ proxies:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_33
+- name: ❓未知丨yoyapai.com_36
   type: vless
   server: 108.162.198.178
   port: 80
@@ -4456,7 +4503,7 @@ proxies:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   skip-cert-verify: false
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_18
+- name: 🇨🇦CA加拿大丨yoyapai.com_19
   type: vless
   server: yg9.ygkkk.dpdns.org
   port: 8443
@@ -4471,7 +4518,7 @@ proxies:
       Host: ygwp.sbbz.tech
   skip-cert-verify: false
   udp: true
-- name: 🇸🇬SG新加坡丨yoyapai.com_10
+- name: 🇸🇬SG新加坡丨yoyapai.com_9
   type: vless
   server: 35.185.179.62
   port: 443
@@ -4484,7 +4531,7 @@ proxies:
     short-id: eb97ce837da2f6ad
   skip-cert-verify: false
   udp: true
-- name: 🇸🇬SG新加坡丨yoyapai.com_11
+- name: 🇸🇬SG新加坡丨yoyapai.com_10
   type: vless
   server: 35.185.179.62
   port: 443
@@ -4497,7 +4544,7 @@ proxies:
     short-id: eb97ce837da2f6ad
   skip-cert-verify: false
   udp: true
-- name: 🇸🇬SG新加坡丨yoyapai.com_12
+- name: 🇸🇬SG新加坡丨yoyapai.com_11
   type: vless
   server: 35.185.179.62
   port: 443
@@ -4510,7 +4557,7 @@ proxies:
     short-id: eb97ce837da2f6ad
   skip-cert-verify: false
   udp: true
-- name: 🇸🇬SG新加坡丨yoyapai.com_13
+- name: 🇸🇬SG新加坡丨yoyapai.com_12
   type: vless
   server: 35.185.179.62
   port: 443
@@ -4523,7 +4570,7 @@ proxies:
     short-id: eb97ce837da2f6ad
   skip-cert-verify: false
   udp: true
-- name: 🇸🇬SG新加坡丨yoyapai.com_14
+- name: 🇸🇬SG新加坡丨yoyapai.com_13
   type: vless
   server: 35.185.179.62
   port: 443
@@ -4759,19 +4806,7 @@ proxies:
     short-id: aabb
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_34
-  type: vless
-  server: lucky-field-0220.191-de2.workers.dev
-  port: 8880
-  uuid: 01c2fb74-10b5-452d-b893-67cb528b6a8d
-  network: ws
-  servername: lucky-field-0220.191-de2.workers.dev
-  tls: false
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-  skip-cert-verify: false
-  udp: true
-- name: 🇺🇸US美國丨yoyapai.com_12
+- name: 🇺🇸US美國丨yoyapai.com_14
   type: vless
   server: 108.162.198.178
   port: 2095
@@ -4783,32 +4818,6 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  udp: true
-- name: 🇰🇷KR韓國丨yoyapai.com
-  type: vless
-  server: crimson-smoke-7818.397.workers.dev
-  port: 8880
-  uuid: d6bdda67-168d-4501-a2c1-ef01070cb327
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  skip-cert-verify: false
-  udp: true
-- name: 🇬🇧GB英國丨yoyapai.com
-  type: vless
-  server: 162.159.152.4
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  network: ws
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
   skip-cert-verify: false
   udp: true
 - name: 🇨🇿CZ捷克丨yoyapai.com_1
@@ -4827,7 +4836,7 @@ proxies:
     short-id: 35d05b666e2c6cdf
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_35
+- name: ❓未知丨yoyapai.com_37
   type: vless
   server: 89.35.14.31
   port: 443
@@ -4843,7 +4852,7 @@ proxies:
     short-id: d36a38659ce106cb
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_36
+- name: ❓未知丨yoyapai.com_38
   type: vless
   server: 150.40.126.21
   port: 443
@@ -4859,7 +4868,7 @@ proxies:
     short-id: 35d05b666e2c6cdf
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_37
+- name: ❓未知丨yoyapai.com_39
   type: vless
   server: 150.40.126.24
   port: 443
@@ -4873,32 +4882,6 @@ proxies:
   reality-opts:
     public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
     short-id: 4872856d5489c37d
-  skip-cert-verify: false
-  udp: true
-- name: ❓未知丨yoyapai.com_38
-  type: vless
-  server: 155.46.167.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime50.workers.dev
-  skip-cert-verify: false
-  udp: true
-- name: ❓未知丨yoyapai.com_39
-  type: vless
-  server: 185.148.104.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime51.workers.dev
   skip-cert-verify: false
   udp: true
 - name: ❓未知丨yoyapai.com_40
@@ -4933,32 +4916,6 @@ proxies:
     short-id: 501ab3325b77e1ca
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_13
-  type: vless
-  server: 45.131.208.4
-  port: 80
-  uuid: 424fa201-3f94-479e-b533-d5257cf9a207
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: floral-thunder-10d3.82-67d.workers.dev
-  skip-cert-verify: false
-  udp: true
-- name: 🇺🇸US美國丨yoyapai.com_14
-  type: vless
-  server: 45.131.208.4
-  port: 80
-  uuid: 424fa201-3f94-479e-b533-d5257cf9a207
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=Telegram馃嚚馃嚦+@WangCai2
-    headers:
-      Host: floral-thunder-10d3.82-67d.workers.dev
-  skip-cert-verify: false
-  udp: true
 - name: 🇫🇷FR法國丨yoyapai.com_5
   type: vless
   server: 104.17.64.70
@@ -4983,18 +4940,6 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
       Host: old-violet-a5ce.29-440.workers.dev
-  skip-cert-verify: false
-  udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_19
-  type: vless
-  server: 155.46.167.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: false
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
   skip-cert-verify: false
   udp: true
 - name: 🇯🇵JP日本丨yoyapai.com_4
@@ -5064,19 +5009,6 @@ proxies:
     short-id: 56d4e7ae4f86fa39
   skip-cert-verify: false
   udp: true
-- name: 🇰🇷KR韩國丨yoyapai.com
-  type: vless
-  server: 104.17.144.29
-  port: 8880
-  uuid: 81d55675-8570-4b40-9a77-3125339a0f86
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: spring-sound-8d8e.36-9ff.workers.dev
-  skip-cert-verify: false
-  udp: true
 - name: 🇰🇷KR韩國丨yoyapai.com_1
   type: vless
   server: crimson-smoke-7818.397.workers.dev
@@ -5088,7 +5020,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   skip-cert-verify: false
   udp: true
-- name: 🇸🇬SG新加坡丨yoyapai.com_15
+- name: 🇸🇬SG新加坡丨yoyapai.com_14
   type: vless
   server: 172.64.94.251
   port: 8880
@@ -5159,1734 +5091,121 @@ proxies:
   client-fingerprint: chrome
   skip-cert-verify: false
   udp: true
-- name: ❓未知丨yoyapai.com_42
+- name: 🇩🇪DE德国丨yoyapai.com_22
   type: vless
-  server: 185.148.104.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: pew.dianawmoon.dpdns.org
+  port: 443
+  uuid: 26769ac3-b34c-430a-87f8-e1de14619d25
+  network: xhttp
+  servername: pew.dianawmoon.dpdns.org
+  tls: true
+  client-fingerprint: random
+  alpn:
+  - h3
+  - h2
+  xhttp-opts:
+    path: /21096/noencd1ana
+    host: pew.dianawmoon.dpdns.org
+    mode: auto
+  skip-cert-verify: false
+  udp: true
+- name: 🇫🇮FI芬兰丨yoyapai.com_3
+  type: vless
+  server: psf-3.weedly.top
+  port: 80
+  uuid: b0fae3b7-02de-4002-b8ca-b7159fe33841
   network: ws
   tls: false
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime51.workers.dev
+      Host: machinemag.ir
+  skip-cert-verify: false
+  udp: true
+- name: 🇫🇮FI芬兰丨yoyapai.com_4
+  type: vless
+  server: psf-3.weedly.top
+  port: 80
+  uuid: b0fae3b7-02de-4002-b8ca-b7159fe33841
+  network: ws
+  servername: psf-3.weedly.top
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: machinemag.ir
+  skip-cert-verify: false
+  udp: true
+- name: 🇮🇷伊朗丨yoyapai.com
+  type: vless
+  server: link.mrpgd.ir
+  port: 6008
+  uuid: e19f406e-0f0f-4abd-9861-a3d2d213b650
+  network: xhttp
+  servername: cafebazaar.ir
+  tls: false
+  xhttp-opts:
+    path: /assets
+    host: cafebazaar.ir
+    mode: stream-up
+  skip-cert-verify: false
+  udp: true
+- name: 🇸🇬SG新加坡丨yoyapai.com_15
+  type: vless
+  server: 103.25.202.102
+  port: 443
+  uuid: a853e120-3570-462b-aec1-e8f3d4f92d24
+  network: ws
+  servername: asia.csmaster.site
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: asia.csmaster.site
   skip-cert-verify: false
   udp: true
 - name: 🇺🇸US美国丨yoyapai.com_16
   type: vless
-  server: 155.46.167.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime50.workers.dev
+  server: tk1.high-speed-test-56424.me
+  port: 443
+  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
+  servername: aws.amazon.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
+    short-id: 21270a66
   skip-cert-verify: false
   udp: true
-- name: 荷兰(mibei77.com 米贝节点分享)
+- name: 🇻🇳VN越南丨yoyapai.com
   type: vless
-  server: 45.131.210.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: vms.lifetime05.workers.dev
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime05.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: 乌克兰(mibei77.com 米贝节点分享)
-  type: vless
-  server: 213.111.148.137
+  server: 104.27.0.121
   port: 443
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-  network: ws
-  servername: proxy-1cu.pages.dev
-  tls: true
-  client-fingerprint: android
-  ws-opts:
-    path: /
-    headers:
-      Host: proxy-1cu.pages.dev
-  skip-cert-verify: true
-  udp: true
-- name: 西班牙(mibei77.com 米贝节点分享)
-  type: vless
-  server: 195.170.172.139
-  port: 57667
   uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  servername: u695098u6b6f0dd0s2057.gogocs.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-  udp: true
-- name: 伊朗(mibei77.com 米贝节点分享)
-  type: vless
-  server: de2.srv.vbuste.ru
-  port: 443
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-  servername: de2.srv.vbuste.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: randomized
-  reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: 4be4110078ebed4a
-  skip-cert-verify: true
-  udp: true
-- name: 伊朗(mibei77.com 米贝节点分享)_1
-  type: vless
-  server: de2.srv.vbuste.ru
-  port: 443
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-  servername: de2.srv.vbuste.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: randomized
-  reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: 4be4110078ebed4a
-  skip-cert-verify: true
-  udp: true
-- name: AU澳大利亚(mibei77.com 米贝节点分享)
-  type: vless
-  server: pl-waw.dontblockmepls.com
-  port: 2063
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-  servername: rusbid.de
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-  skip-cert-verify: true
-  udp: true
-- name: AU澳大利亚(mibei77.com 米贝节点分享)_1
-  type: trojan
-  server: 104.25.109.237
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: AU澳大利亚(mibei77.com 米贝节点分享)_2
-  type: vless
-  server: de2.srv.vbuste.ru
-  port: 443
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-  servername: de2.srv.vbuste.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: 4be4110078ebed4a
-  skip-cert-verify: true
-  udp: true
-- name: AU澳大利亚(mibei77.com 米贝节点分享)_3
-  type: vless
-  server: 103.43.75.82
-  port: 443
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-  network: ws
-  servername: proxy-1cu.pages.dev
-  tls: true
-  client-fingerprint: android
-  ws-opts:
-    path: /
-    headers:
-      Host: proxy-1cu.pages.dev
-  skip-cert-verify: true
-  udp: true
-- name: AU澳大利亚(mibei77.com 米贝节点分享)_4
-  type: vless
-  server: 163.245.52.91
-  port: 443
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  servername: d3-ee1.cloud-cdn.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
-    short-id: ad6e08b22389abd2
-  skip-cert-verify: true
-  udp: true
-- name: AU澳大利亚(mibei77.com 米贝节点分享)_5
-  type: vless
-  server: 157.228.150.34
-  port: 443
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
-  servername: addons.mozilla.org
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: randomized
-  reality-opts:
-    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
-    short-id: 3cef317b
-  skip-cert-verify: true
-  udp: true
-- name: CA加拿大(mibei77.com 米贝节点分享)
-  type: vless
-  server: 49.238.238.156
-  port: 2096
-  uuid: 573c6482-37db-454a-8c31-5b45a338a580
-  network: ws
-  servername: and-75r.pages.dev
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: and-75r.pages.dev
-  skip-cert-verify: true
-  udp: true
-- name: CA加拿大(mibei77.com 米贝节点分享)_1
-  type: vless
-  server: 27.50.48.142
-  port: 2083
-  uuid: 573c6482-37db-454a-8c31-5b45a338a580
-  network: ws
-  servername: and-75r.pages.dev
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: and-75r.pages.dev
-  skip-cert-verify: true
-  udp: true
-- name: CA加拿大(mibei77.com 米贝节点分享)_2
-  type: vless
-  server: 49.238.238.154
-  port: 2053
-  uuid: 573c6482-37db-454a-8c31-5b45a338a580
-  network: ws
-  servername: and-75r.pages.dev
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: and-75r.pages.dev
-  skip-cert-verify: true
-  udp: true
-- name: CA加拿大(mibei77.com 米贝节点分享)_3
-  type: vless
-  server: 188.164.248.48
-  port: 2083
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  network: ws
-  servername: helloapps.cc.cd
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: helloapps.cc.cd
-  skip-cert-verify: true
-  udp: true
-- name: CA加拿大(mibei77.com 米贝节点分享)_4
-  type: vless
-  server: 172.66.0.230
-  port: 2083
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  network: ws
-  servername: helloapps.cc.cd
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: helloapps.cc.cd
-  skip-cert-verify: true
-  udp: true
-- name: CA加拿大(mibei77.com 米贝节点分享)_5
-  type: vless
-  server: 172.67.69.86
-  port: 2083
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  network: ws
-  servername: helloapps.cc.cd
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: helloapps.cc.cd
-  skip-cert-verify: true
-  udp: true
-- name: CA加拿大(mibei77.com 米贝节点分享)_6
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  udp: true
-- name: CA加拿大(mibei77.com 米贝节点分享)_7
-  type: vless
-  server: 209.206.51.240
-  port: 443
-  uuid: 573c6482-37db-454a-8c31-5b45a338a580
-  network: ws
-  servername: and-75r.pages.dev
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: and-75r.pages.dev
-  skip-cert-verify: true
-  udp: true
-- name: DE德国(mibei77.com 米贝节点分享)
-  type: vless
-  server: 163.245.52.91
-  port: 443
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  servername: d3-ee1.cloud-cdn.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
-    short-id: ad6e08b22389abd2
-  skip-cert-verify: true
-  udp: true
-- name: DE德国(mibei77.com 米贝节点分享)_1
-  type: vless
-  server: 163.245.52.91
-  port: 443
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  servername: d3-ee1.cloud-cdn.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: edge
-  reality-opts:
-    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
-    short-id: ad6e08b22389abd2
-  skip-cert-verify: true
-  udp: true
-- name: DE德国(mibei77.com 米贝节点分享)_2
-  type: vless
-  server: 31.77.109.35
-  port: 443
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  servername: d3-de1.cloud-cdn.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
-    short-id: 494afdc75f8c2fa8
-  skip-cert-verify: true
-  udp: true
-- name: DE德国(mibei77.com 米贝节点分享)_3
-  type: vless
-  server: 188.245.191.19
-  port: 2040
-  uuid: bdd897a6-57f2-4311-835f-0b6c5ac5a1a2
-  network: ws
-  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: DE德国(mibei77.com 米贝节点分享)_4
-  type: vless
-  server: 31.77.109.35
-  port: 443
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  servername: d3-de1.cloud-cdn.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: ios
-  reality-opts:
-    public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
-    short-id: 494afdc75f8c2fa8
-  skip-cert-verify: true
-  udp: true
-- name: DE德国(mibei77.com 米贝节点分享)_5
-  type: vless
-  server: 31.77.109.35
-  port: 443
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  servername: d3-de1.cloud-cdn.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
-    short-id: 494afdc75f8c2fa8
-  skip-cert-verify: true
-  udp: true
-- name: DE德国(mibei77.com 米贝节点分享)_6
-  type: vless
-  server: 163.245.52.91
-  port: 443
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  servername: d3-ee1.cloud-cdn.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: safari
-  reality-opts:
-    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
-    short-id: ad6e08b22389abd2
-  skip-cert-verify: true
-  udp: true
-- name: DE德国(mibei77.com 米贝节点分享)_7
-  type: vless
-  server: 163.245.52.91
-  port: 443
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  servername: d3-ee1.cloud-cdn.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
-    short-id: ad6e08b22389abd2
-  skip-cert-verify: true
-  udp: true
-- name: DE德国(mibei77.com 米贝节点分享)_8
-  type: vless
-  server: 163.245.52.91
-  port: 443
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  servername: d3-ee1.cloud-cdn.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: edge
-  reality-opts:
-    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
-    short-id: ad6e08b22389abd2
-  skip-cert-verify: true
-  udp: true
-- name: DE德国(mibei77.com 米贝节点分享)_9
-  type: vless
-  server: 31.77.109.35
-  port: 443
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  servername: d3-de1.cloud-cdn.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
-    short-id: 494afdc75f8c2fa8
-  skip-cert-verify: true
-  udp: true
-- name: DE德国(mibei77.com 米贝节点分享)_10
-  type: trojan
-  server: 167.82.76.7
-  port: 443
-  password: mitivpn
-  sni: ssl.fastly.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
-  udp: true
-- name: FR法国(mibei77.com 米贝节点分享)
-  type: vless
-  server: 27.44.143.169
-  port: 14343
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-  servername: thuk.huaweiyouxuan.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  udp: true
-- name: FR法国(mibei77.com 米贝节点分享)_1
-  type: vless
-  server: 103.116.7.100
-  port: 2087
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-  network: ws
-  servername: proxy-1cu.pages.dev
-  tls: true
-  client-fingerprint: android
-  ws-opts:
-    path: /
-    headers:
-      Host: proxy-1cu.pages.dev
-  skip-cert-verify: true
-  udp: true
-- name: GB英国(mibei77.com 米贝节点分享)
-  type: vless
-  server: 2.28.142.170
-  port: 443
-  uuid: f774f037-6320-42e3-a97b-6d4a1f018dd5
-  encryption: mlkem768x25519plus.native.0rtt.Y0-j5e-CpehUKzhEeat1dTYevroKyHV4g9HML3ujmlQ
   network: xhttp
-  servername: germanytest.tulnaro.ir
+  servername: b33ec4a1s226.fuhuovps.xyz
   tls: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: IqFTx4k5VQydmffvavaOHDXBtdgDxX26A6NtsVvDfhw
-    short-id: d485c3d5248d6b51
+  client-fingerprint: ios
+  alpn:
+  - h2
+  - http/1.1
   xhttp-opts:
-    path: /
-    host: germanytest.tulnaro.ir
-    mode: auto
-  skip-cert-verify: true
+    path: e0d9cd6ea04ecda957b4ca0869e038af
+    host: b33ec4a1s226.fuhuovps.xyz
+  skip-cert-verify: false
   udp: true
-- name: GB英国(mibei77.com 米贝节点分享)_1
+- name: ❓未知丨yoyapai.com_42
   type: vless
-  server: 31.77.109.35
-  port: 443
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  servername: d3-de1.cloud-cdn.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
-    short-id: 494afdc75f8c2fa8
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)
-  type: vless
-  server: 27.44.143.169
-  port: 14343
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-  servername: thuk.huaweiyouxuan.com
-  tls: true
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)_1
-  type: vless
-  server: 27.155.117.209
-  port: 14343
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-  servername: thuk.huaweiyouxuan.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)_2
-  type: vless
-  server: 112.49.63.11
-  port: 33102
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-  servername: sgg.knhqf.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)_3
-  type: vless
-  server: 27.155.117.209
-  port: 33102
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-  servername: sgg.knhqf.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)_4
-  type: vless
-  server: 27.44.143.169
-  port: 33102
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-  servername: sgg.knhqf.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)_5
-  type: vless
-  server: 27.44.143.169
-  port: 33102
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-  servername: sgg.knhqf.com
-  tls: true
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)_6
-  type: vless
-  server: 14.17.78.144
-  port: 14343
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-  servername: thuk.huaweiyouxuan.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)_7
-  type: vless
-  server: 129.211.188.184
-  port: 8443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  servername: jp3.yohototo.top
-  tls: true
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)_8
-  type: vless
-  server: 14.17.78.146
-  port: 14343
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-  servername: thuk.huaweiyouxuan.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)_9
-  type: vless
-  server: 129.211.188.184
-  port: 8443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  servername: jp3.yohototo.top
-  tls: true
-  client-fingerprint: unsafe
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)_10
-  type: vless
-  server: 36.248.14.90
-  port: 14343
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-  servername: thuk.huaweiyouxuan.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)_11
-  type: vless
-  server: 175.29.23.179
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  network: ws
-  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
-  tls: true
-  client-fingerprint: firefox
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
-    headers:
-      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)_12
-  type: anytls
-  server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
-  port: 443
-  password: 9sK2mP8xQ7vL3nZ6
-  sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
-  skip-cert-verify: true
-  tls: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)_13
-  type: vless
-  server: 175.29.23.179
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  network: ws
-  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
-  tls: true
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
-    headers:
-      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)_14
-  type: vless
-  server: 27.155.117.209
-  port: 33102
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-  servername: sgg.knhqf.com
-  tls: true
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)_15
-  type: vless
-  server: 112.49.63.11
-  port: 33102
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-  servername: sgg.knhqf.com
-  tls: true
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)_16
-  type: trojan
-  server: 104.21.13.204
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)_17
-  type: vless
-  server: 150.241.80.113
-  port: 443
-  uuid: 86037609-3790-4901-bd2f-c698092fb1fc
-  servername: nl.skfv-mirror.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: safari
-  reality-opts:
-    public-key: qmfrMwVYth3lsYuv7qfr22YlTIlNtVjMl0v4Z5pX7hM
-    short-id: 87cc0414902bee2d
-  skip-cert-verify: true
-  udp: true
-- name: JP日本(mibei77.com 米贝节点分享)
-  type: vless
-  server: 152.69.199.75
-  port: 443
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-  network: ws
-  servername: proxy-1cu.pages.dev
-  tls: true
-  client-fingerprint: android
-  ws-opts:
-    path: /
-    headers:
-      Host: proxy-1cu.pages.dev
-  skip-cert-verify: true
-  udp: true
-- name: JP日本(mibei77.com 米贝节点分享)_1
-  type: vless
-  server: ee.h1cloud.net
-  port: 25895
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
-  servername: www.samsung.com
-  tls: true
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-    short-id: a73f0410d728c823
-  skip-cert-verify: true
-  udp: true
-- name: JP日本(mibei77.com 米贝节点分享)_2
-  type: vless
-  server: 62.105.220.106
-  port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  servername: u695098u7dae9c0cs220.gogocs.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-  udp: true
-- name: JP日本(mibei77.com 米贝节点分享)_3
-  type: vless
-  server: s251.wagahaha.xyz
-  port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  servername: u695098u47d2e9bes71.gogocs.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-  udp: true
-- name: JP日本(mibei77.com 米贝节点分享)_4
-  type: anytls
-  server: nv50244o.zf-mix.9999231.xyz
-  port: 1043
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  sni: pe-wy.9999231.xyz
-  skip-cert-verify: true
-  tls: true
-  udp: true
-- name: JP日本(mibei77.com 米贝节点分享)_5
-  type: vless
-  server: 36.248.14.90
-  port: 14343
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-  servername: thuk.huaweiyouxuan.com
-  tls: true
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  udp: true
-- name: SG新加坡(mibei77.com 米贝节点分享)
-  type: vless
-  server: 142.91.101.39
-  port: 627
-  uuid: 8199228b-e84b-42a2-9268-e400391e483a
-  network: ws
-  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+  server: 43.108.48.169
+  port: 40701
+  uuid: cdb7d825-9892-4d6f-80b8-7add83159dac
+  servername: amazon.com
   tls: true
   client-fingerprint: chrome
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: SG新加坡(mibei77.com 米贝节点分享)_1
-  type: vless
-  server: 142.91.101.39
-  port: 627
-  uuid: aff1ffd0-594c-44c9-9f79-4096fde005ea
-  network: ws
-  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: SG新加坡(mibei77.com 米贝节点分享)_2
-  type: vless
-  server: 112.49.63.11
-  port: 33102
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-  servername: sgg.knhqf.com
-  tls: true
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  udp: true
-- name: SG新加坡(mibei77.com 米贝节点分享)_3
-  type: vless
-  server: 27.44.143.169
-  port: 33102
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-  servername: sgg.knhqf.com
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- name: SG新加坡(mibei77.com 米贝节点分享)_4
-  type: anytls
-  server: l3hl4mwo.zf-mix.9999231.xyz
-  port: 1001
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  sni: tw01.9999231.xyz
-  skip-cert-verify: true
-  tls: true
-  udp: true
-- name: TW台湾(mibei77.com 米贝节点分享)
-  type: anytls
-  server: awefd2313fefarg23fr24.pnuqcnp.cn
-  port: 443
-  password: 9sK2mP8xQ7vL3nZ6
-  skip-cert-verify: true
-  tls: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)
-  type: trojan
-  server: 167.82.76.27
-  port: 443
-  password: mitivpn
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: mitivpn---deb--s---mitivpn-3.global.ssl.fastly.net
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_1
-  type: trojan
-  server: 167.82.76.7
-  port: 443
-  password: mitivpn
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/des---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP
-    headers:
-      Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_2
-  type: trojan
-  server: 167.82.76.7
-  port: 443
-  password: mitivpn
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_3
-  type: vless
-  server: 14.17.78.146
-  port: 14343
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-  servername: thuk.huaweiyouxuan.com
-  tls: true
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_4
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  network: ws
-  servername: a.cwvps.eu.org
-  tls: true
-  client-fingerprint: unsafe
-  ws-opts:
-    path: /ws
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_5
-  type: anytls
-  server: anytls2.864106.xyz
-  port: 19000
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: anytls2.864106.xyz
-  skip-cert-verify: true
-  tls: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_6
-  type: vless
-  server: 104.21.70.21
-  port: 8080
-  uuid: 8a36be1d-7c78-4885-8a1f-bedf5ba7db1c
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: lucky-lab-ac6d.caveyi8071.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_7
-  type: vless
-  server: 163.245.52.91
-  port: 443
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  servername: d3-ee1.cloud-cdn.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: edge
   reality-opts:
-    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
-    short-id: ad6e08b22389abd2
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_8
-  type: vless
-  server: envato.com
-  port: 8880
-  uuid: baaa882d-ac50-4bba-bd8d-5486f7d34005
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: blue-water-924c.174-235.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_9
-  type: trojan
-  server: 167.82.76.7
-  port: 443
-  password: mitivpn
-  sni: ssl.fastly.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
-  ws-opts:
-    path: /---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/des---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP
-    headers:
-      Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_10
-  type: trojan
-  server: 167.82.76.7
-  port: 443
-  password: mitivpn
-  sni: ssl.fastly.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_11
-  type: vless
-  server: 185.148.104.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: 185.148.104.30
-  tls: false
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime51.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_12
-  type: trojan
-  server: 167.82.76.27
-  port: 443
-  password: mitivpn
-  sni: ssl.fastly.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: mitivpn---deb--s---mitivpn-3.global.ssl.fastly.net
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_13
-  type: vless
-  server: 23.166.40.27
-  port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  servername: u695098u07fcba7ds79.kukuss.top
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_14
-  type: vless
-  server: 45.131.208.4
-  port: 80
-  uuid: 424fa201-3f94-479e-b533-d5257cf9a207
-  network: ws
-  servername: 45.131.208.4
-  tls: false
-  client-fingerprint: chrome
-  ws-opts:
-    path: /pyip=Telegram🇨🇳+@WangCai2
-    headers:
-      Host: floral-thunder-10d3.82-67d.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_15
-  type: trojan
-  server: 167.82.76.27
-  port: 443
-  password: mitivpn
-  sni: ssl.fastly.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
-  ws-opts:
-    path: /---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/des---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1
-    headers:
-      Host: mitivpn---deb--s---mitivpn-3.global.ssl.fastly.net
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_16
-  type: trojan
-  server: 167.82.76.7
-  port: 443
-  password: mitivpn
-  sni: ssl.fastly.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_17
-  type: trojan
-  server: 199.232.78.101
-  port: 443
-  password: mitivpn
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: mitivpn---deb--s---mitivpn-1.global.ssl.fastly.net
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_18
-  type: trojan
-  server: 199.232.78.160
-  port: 443
-  password: mitivpn
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_19
-  type: trojan
-  server: 167.82.76.7
-  port: 443
-  password: mitivpn
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_20
-  type: vless
-  server: s880.gogocs.xyz
-  port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  servername: u695098u07fcba7ds79.kukuss.top
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_21
-  type: vless
-  server: s881.wagahaha.xyz
-  port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  servername: u695098u07fcba7ds79.kukuss.top
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_22
-  type: trojan
-  server: 199.232.78.160
-  port: 443
-  password: mitivpn
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /---@npv_vpn11---@npv_vpn11/---@npv_vpn11---@npv_vpn11/---@npv_vpn11---@npv_vpn11/NLSus---@npv_vpn11---@npv_vpn11/---@npv_vpn11---@npv_vpn11/---@npv_vpn11---@npv_vpn11
-    headers:
-      Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_23
-  type: trojan
-  server: 199.232.78.160
-  port: 443
-  password: mitivpn
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/des---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP
-    headers:
-      Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_24
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chrome
-    headers:
-      Host: snip.edgeoneai.cc.cd
-  alpn:
-  - h3
-  - h2
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_25
-  type: trojan
-  server: 199.232.78.160
-  port: 443
-  password: mitivpn
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_26
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  network: ws
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-  alpn:
-  - h3
-  - h2
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_27
-  type: trojan
-  server: 167.82.76.7
-  port: 443
-  password: mitivpn
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_28
-  type: trojan
-  server: 167.82.76.27
-  port: 443
-  password: mitivpn
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/des---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1
-    headers:
-      Host: mitivpn---deb--s---mitivpn-3.global.ssl.fastly.net
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_29
-  type: vless
-  server: 104.21.70.21
-  port: 8080
-  uuid: 8a36be1d-7c78-4885-8a1f-bedf5ba7db1c
-  network: ws
-  tls: false
-  ws-opts:
-    path: /rN50nmm9L1DeY73C?ed=2560
-    headers:
-      Host: lucky-lab-ac6d.caveyi8071.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_30
-  type: vless
-  server: 172.67.203.138
-  port: 8080
-  uuid: 015fada5-2c95-4251-9c58-39fa3abf1e24
-  network: ws
-  servername: 172.67.203.138
-  tls: false
-  ws-opts:
-    path: /eyJqdW5rIjoidzY2QTdySkdOeiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIl19?ed=2560
-    headers:
-      Host: server17.peekconfig1.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_31
-  type: vless
-  server: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
-  port: 443
-  uuid: 0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
-  network: ws
-  servername: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /ws/0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_32
-  type: trojan
-  server: 172.67.231.254
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_33
-  type: vless
-  server: 104.17.21.32
-  port: 8880
-  uuid: 6e5270b6-9f28-4bc6-8a41-9c197f33f4bb
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: autumn-dawn-fa6b.337-272.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_34
-  type: vless
-  server: s249.freessr.bid
-  port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  servername: u695098u47d2e9bes71.gogocs.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_35
-  type: vless
-  server: 179.61.138.177
-  port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  servername: u695098u47d2e9bes71.gogocs.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-  udp: true
-- name: 🇲🇩_MD_摩尔多瓦
-  type: vless
-  server: rezerv23.yunus.guru
-  port: 443
-  uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
-  servername: rezerv23.yunus.guru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: zT7a-PnmIWP4c-G1EDUT3KZ7URi1kc8EppAWPr3h5lk
-    short-id: afeed89ae23b36ed
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰_HK_中国香港
-  type: vmess
-  server: 47.86.167.194
-  port: 800
-  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    path:
-    - /x
-    headers:
-      Host:
-      - sjskendn.dingtalk.com
-  udp: true
-- name: 🇭🇰_HK_中国香港_1
-  type: vmess
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-  udp: true
-- name: 🇩🇪_DE_德国
-  type: vless
-  server: 94.156.122.215
-  port: 8443
-  uuid: ce5b6383-60f2-4aa3-9099-eacb6b01cf2b
-  servername: www.github.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: m8NlVgma3zCfxdXIzMreVvi_O4c2-lZqPh_9UHOsM1I
-    short-id: 99defbf4759b
-  skip-cert-verify: true
-  udp: true
-- name: 🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国
-  type: vless
-  server: 217.60.193.1
-  port: 443
-  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
-  servername: ddc-akn.astralweb.tech
-  tls: true
-  client-fingerprint: firefox
-  skip-cert-verify: true
-  udp: true
-- name: 🇫🇷_FR_法国
-  type: vless
-  server: 15.237.177.139
-  port: 43248
-  uuid: f9d8ca28-2fff-45de-9b25-3bf29186018e
-  servername: yahoo.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: LPLKpq5_G1WB6BqJhrCKQp1oQly3akbsVjvYPZrbGgg
-    short-id: 3355cf9734b0150e
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸_US_美国->🇫🇮_FI_芬兰
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
-  network: ws
-  servername: ssl.fastly.com
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-    headers:
-      Host: pan11.global.ssl.fastly.net
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪_DE_德国_1
-  type: vless
-  server: 45.80.111.7
-  port: 443
-  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
-  network: ws
-  servername: 2--ldej--MiTiVPN---MiTiVPN-o.KingNetwork.ir
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: De2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰_HK_中国香港->🇩🇪_DE_德国
-  type: trojan
-  server: hkdcrtc-e.catcat321.com
-  port: 20041
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  sni: de.catxstar.com
-  skip-cert-verify: true
-  tls: true
-  udp: true
-- name: 🇭🇰_HK_中国香港_2
-  type: vmess
-  server: m01c7b2z26dtqgee.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-  udp: true
-- name: 🇨🇭_CH_瑞士
-  type: vless
-  server: 199.68.196.79
-  port: 443
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  servername: ch.tunnelx.space
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: q_lfutznS1iTS7bGphTIGMYVeht-8clcf_IfzIf4mBQ
-    short-id: 10a5c8e2f4b7d936
-  skip-cert-verify: true
-  udp: true
-- name: 🇨🇭_CH_瑞士_1
-  type: vless
-  server: ch.tunnelx.space
-  port: 443
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  servername: ch.tunnelx.space
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: q_lfutznS1iTS7bGphTIGMYVeht-8clcf_IfzIf4mBQ
-    short-id: 10a5c8e2f4b7d936
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪_DE_德国_2
-  type: vless
-  server: 159.195.139.217
-  port: 8443
-  uuid: 48267e65-8bf0-4046-923f-4ee967009344
-  servername: sellflow.org
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  skip-cert-verify: true
-  udp: true
-- name: 🇪🇸_ES_西班牙
-  type: vless
-  server: 46.28.71.104
-  port: 2053
-  uuid: 504d0b6e-400d-45ec-b2d0-1c79006ebc16
-  servername: web.abubibabu.ru
-  tls: true
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ
-    short-id: 0858af97f4e7324d
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸_US_美国
-  type: vless
-  server: 88.218.44.4
-  port: 993
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-  servername: download.nvidia.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸_US_美国_1
-  type: vless
-  server: 217.177.75.7
-  port: 443
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  servername: usa.tunnelx.space
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 6INA8Jxa9oQT3XrW4uXd0leo2upMdUn8s_XbSP0qB3I
-    short-id: f0a9d2b1c7e4f648
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪_DE_德国_3
-  type: vless
-  server: 31.76.11.46.cdn-one.org
-  port: 443
-  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
-  network: ws
-  servername: 31.76.11.46.cdn-one.org
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /52872/BNzG4FvIAr
-    headers:
-      Host: 31.76.11.46.cdn-one.org
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪_DE_德国_4
-  type: vless
-  server: 185.126.67.76
-  port: 443
-  uuid: b6f3b292-00c9-430e-bc4c-b1294bd895c0
-  servername: cdn-de-4.ai-apiroute.cc
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: kaw2U8L2ZTcgo56qUBONfylYJpHprI_CgZfv1I4q2Sc
-    short-id: b512d49930874a31
-  skip-cert-verify: true
-  udp: true
-- name: 🇳🇱_NL_荷兰
-  type: vless
-  server: 31.76.79.118
-  port: 2444
-  uuid: fc1ee51e-72ec-4af0-ab0f-540c9e22427b
-  servername: www.cloudflare.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: JsSTmS0VKNaHF-_QKYS-_utnS-LJuPOBrWcMbVE2RDA
-    short-id: 0809f782a29a2030
-  skip-cert-verify: true
-  udp: true
-- name: 🇵🇱_PL_波兰
-  type: vless
-  server: pl01.auragg.org
-  port: 25224
-  uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
-  network: grpc
-  servername: cloudflare.com
-  tls: true
-  client-fingerprint: qq
-  grpc-opts:
-    grpc-service-name: auragrpc
-  reality-opts:
-    public-key: uXV7VKWM7wlzSVCp1MxVMQHJJ3GvjJmVCMPqw_vIZUs
-    short-id: e7c3f9a2b6d4f8e1
-  skip-cert-verify: true
-  udp: true
-- name: 🇨🇿_CZ_捷克
-  type: vless
-  server: 141.133.172.222
-  port: 20342
-  uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪_DE_德国_5
-  type: vless
-  server: 159.195.201.235
-  port: 25310
-  uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
-  network: grpc
-  servername: cloudflare.com
-  tls: true
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: auragrpc
-  reality-opts:
-    public-key: 3Ow1WhWHN1nUEkOR4kThVpzEuvlcB5ZrqoBcHtJGyiY
-    short-id: a3d8f1e9b2c7d4e6
-  skip-cert-verify: true
-  udp: true
-- name: 🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国_1
-  type: vless
-  server: ddc-akn.astralweb.tech
-  port: 443
-  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- name: 🇨🇳_CN_中国->🇭🇰_HK_中国香港
-  type: vmess
-  server: v9.hdacd.com
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪_DE_德国->🇹🇭_TH_泰国
-  type: vless
-  server: www.true.th
-  port: 80
-  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
-  network: ws
-  servername: d2pwbkmfr5lxa4.cloudfront.net
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: d2pwbkmfr5lxa4.cloudfront.net
-  skip-cert-verify: true
-  udp: true
-- name: 🇲🇰_MK_MK
-  type: vless
-  server: 195.144.24.84
-  port: 443
-  uuid: b6f3b292-00c9-430e-bc4c-b1294bd895c0
-  servername: cdn-mk.ai-apiroute.cc
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: PCF6GYA_TCdb28mM6zsxJ38MAtmnSrJJEygkXvrt1AE
-    short-id: b512d49930874a31
-  skip-cert-verify: true
-  udp: true
-- name: 🇵🇱_PL_波兰_1
-  type: vless
-  server: 31.76.251.127.cdn-one.org
-  port: 443
-  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
-  network: ws
-  servername: 31.76.251.127.cdn-one.org
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /10336/2GCOqG7bvA
-    headers:
-      Host: 31.76.251.127.cdn-one.org
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸_US_美国_2
-  type: vless
-  server: 104.17.21.32
-  port: 8880
-  uuid: 300f44af-adb8-42b7-b869-bef70b205d7e
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: icy-rice-3c1c.340-680.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: 🇲🇩_MD_摩尔多瓦_1
-  type: vless
-  server: 176.123.2.210
-  port: 443
-  uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
-  servername: rezerv23.yunus.guru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: zT7a-PnmIWP4c-G1EDUT3KZ7URi1kc8EppAWPr3h5lk
-    short-id: afeed89ae23b36ed
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸_US_美国_3
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
+    public-key: TWuVILeiSXfCSMZPsqNHtRquNALPRaW5Z51I63zdLEA
+    short-id: 7ef3a8ab2886
+  skip-cert-verify: false
   udp: true
