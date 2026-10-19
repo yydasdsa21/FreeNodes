@@ -345,6 +345,28 @@ proxies:
     grpc-service-name: GunService
   udp: true
 - name: 8元老牌专线机场：cczzuu.top
+  server: 47.238.126.208
+  port: 1080
+  type: socks5
+  udp: true
+  username: Og
+  password: Og
+- name: 🇭🇰 香港_85ON4U
+  server: 47.238.210.5
+  port: 13779
+  type: vless
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+  tls: true
+  tfo: false
+  skip-cert-verify: false
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  servername: tesla.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇨🇳 中国_739BJU
   server: jp.sofast.live
   port: 52683
   type: vless
@@ -354,7 +376,7 @@ proxies:
   skip-cert-verify: false
   network: tcp
   udp: true
-- name: 🇺🇸 美国_AKHR2L
+- name: 🇨🇳 中国_BIDZ41
   server: us22.sofast.live
   port: 58011
   type: vless
@@ -362,18 +384,45 @@ proxies:
   tls: false
   tfo: false
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇯🇵 日本_MB7O5U
+- name: 🇯🇵 日本_567DHX
   server: 154.36.158.197
   port: 8388
   type: ss
   udp: true
   cipher: aes-256-gcm
   password: BeaUf9c0AEWH40Pu
-- name: 🇺🇸 美国_8F5XBA
-  server: 64.188.66.181
+- name: 🇺🇸 美国_AESPK5
+  server: 52.128.241.109
+  port: 1080
+  type: socks5
+  udp: true
+  username: Og==
+  password: Og==
+- name: 🇨🇦 加拿大_3LUG3Y
+  server: 38.49.210.79
+  port: 40000
+  type: socks5
+  udp: true
+  username: Og==
+  password: Og==
+- name: 🇯🇵 日本_CA05YL
+  server: platform106.golnamakcert.top
+  port: 80
+  type: vless
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /platform106
+    headers:
+      Host: platform106.halalkhor.info
+  udp: true
+- name: 🇩🇪 德国_4GPW55
+  server: ge-s-1.pythonmakemigreat.wiki
   port: 443
   type: vless
   uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
@@ -386,9 +435,16 @@ proxies:
     short-id: 2c9a2790ad5900b2
   servername: ge-s-1.pythonmakemigreat.wiki
   client-fingerprint: chrome
-  network: tcp
+  network: raw
   udp: true
-- name: 🇺🇸 美国_NQY68E
+- name: 🇺🇸 美国_CX2WXI
+  server: 104.36.66.212
+  port: 443
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: bwLa2026x9KpQzRt7Nv
+- name: 🇺🇸 美国_YKKDB6
   server: 78.17.178.125
   port: 443
   type: vless
@@ -403,33 +459,4 @@ proxies:
   servername: cdn.tbank.ru
   client-fingerprint: chrome
   network: tcp
-  udp: true
-- name: 🇳🇱 荷兰_OVLWR1
-  server: nl-s-2.pythonmakemigreat.wiki
-  port: 61374
-  type: vless
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  tls: true
-  tfo: false
-  skip-cert-verify: false
-  reality-opts:
-    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-    short-id: ''
-  servername: nl-s-2.pythonmakemigreat.wiki
-  client-fingerprint: chrome
-  network: xhttp
-  udp: true
-- name: 🇺🇸 美国_SH50Z9
-  server: www.epicgames.com
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  tfo: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: openapi.pure-ai.us.ci
   udp: true
