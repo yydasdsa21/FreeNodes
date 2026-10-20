@@ -276,21 +276,6 @@ proxies:
   network: tcp
   udp: true
 - name: 8元老牌专线机场：cczzuu.top
-  server: 47.244.120.197
-  port: 44867
-  type: vmess
-  udp: true
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /arki
-    headers:
-      Host: 47.244.120.197
-- name: 🇭🇰 香港_EGA7P6
   server: 47.238.210.5
   port: 13779
   type: vless
@@ -305,17 +290,7 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇺🇸 美国_NG0MYD
-  server: jp.sofast.live
-  port: 52683
-  type: vless
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-  tls: false
-  tfo: false
-  skip-cert-verify: false
-  network: tcp
-  udp: true
-- name: 🇺🇸 美国_GA1PXU
+- name: 🇨🇳 中国_5PRFP6
   server: us22.sofast.live
   port: 58011
   type: vless
@@ -325,47 +300,31 @@ proxies:
   skip-cert-verify: false
   network: tcp
   udp: true
-- name: 🇯🇵 日本_IT220S
-  server: 141.11.138.132
-  port: 443
+- name: 🇨🇳 中国_Q2E4XB
+  server: jp.sofast.live
+  port: 52683
   type: vless
-  uuid: b47cc98c-54f4-4ab2-acb9-b493a04ccc6b
-  tls: true
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+  tls: false
   tfo: false
-  flow: xtls-rprx-vision
   skip-cert-verify: false
-  reality-opts:
-    public-key: Kb511WMVMJe1nImN8kCi9PdPQSGu3aZCrffMOvzv43A
-    short-id: f9ca9286d0ff8920
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇺🇸 美国_MQFVF2
-  server: 52.128.241.109
+- name: 🇺🇸 美国_FVL2MA
+  server: 149.248.18.106
+  port: 1081
+  type: socks5
+  udp: true
+  username: Og==
+  password: Og==
+- name: 🇯🇵 日本_AF87K4
+  server: 217.142.236.180
   port: 1080
   type: socks5
   udp: true
   username: Og==
   password: Og==
-- name: 🇫🇮 芬兰_BMLE4Q
-  server: 109.172.54.135
-  port: 8444
-  type: vless
-  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
-  tls: true
-  tfo: false
-  skip-cert-verify: false
-  reality-opts:
-    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
-    short-id: ''
-  servername: github.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: GunService
-  udp: true
-- name: 🇩🇪 德国_7Q0MV2
+- name: 🇩🇪 德国_2VYS1Z
   server: 188.114.99.0
   port: 8880
   type: vless
@@ -379,55 +338,14 @@ proxies:
     headers:
       Host: ovh-gr1.mahkhorshidi.ir
   udp: true
-- name: 🇷🇺 俄罗斯_6YGLNI
-  server: 85.193.85.231
-  port: 443
-  type: vless
-  uuid: 8a9c586c-4b2c-49e5-9e78-97408bf58500
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: false
-  reality-opts:
-    public-key: ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI
-    short-id: ''
-  servername: yoy-api.bachidze.com
-  client-fingerprint: chrome
-  network: tcp
+- name: 🇺🇸 美国_1EMP3V
+  server: 67.207.92.87
+  port: 1088
+  type: socks5
   udp: true
-- name: 🇵🇱 波兰_FS40AQ
-  server: 144.31.4.234
-  port: 443
-  type: vless
-  uuid: 8a9c586c-4b2c-49e5-9e78-97408bf58500
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: false
-  reality-opts:
-    public-key: E12wXXagR8xuql7KlWCLTgMaXj74JcU__lg66yz6iTw
-    short-id: ''
-  servername: direct-nl.bachidze.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇺🇸 美国_T8TBIT
-  server: ge-s-1.pythonmakemigreat.wiki
-  port: 443
-  type: vless
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: false
-  reality-opts:
-    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
-    short-id: 2c9a2790ad5900b2
-  servername: ge-s-1.pythonmakemigreat.wiki
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇳🇱 荷兰_6QZ0FW
+  username: Og==
+  password: Og==
+- name: 🇳🇱 荷兰_TMCN01
   server: nl-s-2.pythonmakemigreat.wiki
   port: 61374
   type: vless
@@ -442,7 +360,38 @@ proxies:
   client-fingerprint: chrome
   network: xhttp
   udp: true
-- name: 🇺🇸 美国_O6B06M
+- name: 🇷🇺 俄罗斯_0GBEGM
+  server: app-sh-185.spbstudentlife.com
+  port: 443
+  type: vless
+  uuid: 074690f9-cb30-44f5-84e5-f3ce8fc6cf29
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+  reality-opts:
+    public-key: rM3p4mL72kcpvnxVRYxl5J0zPbxE2U3iZua0F29SHTQ
+    short-id: 8d942904d3e87323
+  servername: assets-sh-185.spbstudentlife.com
+  client-fingerprint: randomized
+  network: tcp
+  udp: true
+- name: 🇺🇸 美国_V2ZHH2
+  server: nl.cachevault.net
+  port: 443
+  type: vless
+  uuid: 2b9fc113-db27-4635-86d8-fa4556a5b7ba
+  tls: true
+  tfo: false
+  skip-cert-verify: false
+  reality-opts:
+    public-key: XTX6Yvtj5B4HENQbNCS0MH3jDqq5vj5gWlg2nilTviE
+    short-id: 8ba02790a1480848
+  servername: nl.cachevault.net
+  client-fingerprint: firefox
+  network: xhttp
+  udp: true
+- name: 🇺🇸 美国_63J6PX
   server: 78.17.178.125
   port: 443
   type: vless
@@ -458,25 +407,85 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇸🇪 瑞典_P3EMY0
-  server: se1.h1cloud.net
-  port: 26128
+- name: 🇸🇬 新加坡_F5DDLS
+  server: 162.128.44.254
+  port: 36000
   type: vless
-  uuid: 68c3d665-b2b5-4ffb-9f37-9f3d8c47324d
+  uuid: b2332eff-b231-4c10-8552-5dfad84f5521
   tls: true
   tfo: false
+  flow: xtls-rprx-vision
   skip-cert-verify: false
   reality-opts:
-    public-key: sACiHit5lNtPRK_eFP6jT8dMPUZ4kQRsfPj_LL5p7Uk
-    short-id: 13ac4d3bdadf1ea1
-  servername: www.icloud.com
-  client-fingerprint: random
-  network: grpc
-  grpc-opts:
-    grpc-service-name: df50147201bf
+    public-key: X_RnxIw_MpC_qCMcsgM3CDcPx2y6LGVl7UMms0IxOkI
+    short-id: 8cd87cd0dcc86b9f
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
   udp: true
-- name: 🇸🇪 瑞典_JPM6GN
-  server: 171.25.158.95
+- name: 🇮🇷 伊朗_DU6D48
+  server: link.mrpgd.ir
+  port: 6008
+  type: vless
+  uuid: e19f406e-0f0f-4abd-9861-a3d2d213b650
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  servername: cafebazaar.ir
+  network: xhttp
+  udp: true
+- name: 🇸🇬 新加坡_VNA0SA
+  server: 178.94.25.73
+  port: 10443
+  type: vless
+  uuid: 2dacc738-5720-4824-b8bc-e3db57596ba7
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  servername: 178.94.25.73
+  network: tcp
+  udp: true
+- name: 🇹🇭 泰国_9HO7LM
+  server: 47.87.97.94
+  port: 1080
+  type: socks5
+  udp: true
+  username: Og==
+  password: Og==
+- name: 🇳🇱 荷兰_FVTP21
+  server: 194.93.61.143
+  port: 443
+  type: vless
+  uuid: 244d9eab-3311-40c7-b47f-4968dc3088a6
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: 868419504747f6de
+  servername: nl10.lazeroe.com
+  client-fingerprint: edge
+  network: tcp
+  udp: true
+- name: 🇸🇬 新加坡_D72RDC
+  server: jklo.personalitytoday.com
+  port: 55069
+  type: vless
+  uuid: b2332eff-b231-4c10-8552-5dfad84f5521
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+  reality-opts:
+    public-key: YQ3pqAAbm2RcACEkU8K0nol3-B-driJbXISk-rb-A0E
+    short-id: 98a763b0b27e284b
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇫🇷 法国_P0L25P
+  server: 213.199.47.140
   port: 1080
   type: socks5
   udp: true

@@ -67,7 +67,7 @@ sites:
     clash/v2ray/sing-box subscription file links
   link_pattern: https://node\.freeclashnode\.com/uploads/\d{4}/\d{2}/[\d\w\.-]+
   name: freeclashnode
-  node_count: 9
+  node_count: 5
   start_url: https://www.freeclashnode.com/free-node/
   type: simple
   up_date: '2026-10-20'
